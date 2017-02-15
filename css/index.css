@@ -1,0 +1,45 @@
+p{
+    word-break: break-all;
+
+}
+body {
+    padding-top: 50px;
+}
+#main{
+    margin: 40px;
+}
+#main .container-fluid{
+    text-align: center;
+}
+#main .container-fluid .row .col-lg-4{
+    margin-bottom: 30px;
+}
+#main .container-fluid .row .col-lg-4 img{
+    width: 140px;
+}
+#main .container-fluid .row .col-lg-4 p{
+    text-align: left;
+    text-indent: 8%;
+}
+/*选项卡*/
+#tabBar{
+    margin-top: 70px;
+}
+#tabBar .tab-content p{
+    text-align: left;
+}
+#tabBar .container-fluid .row .col-md-7{
+    margin-top: 100px;
+}
+#tabBar .tab-content .row .col-md-7 h1{
+    text-align: center;
+}
+/*底部*/
+#footer{
+    padding-bottom: 50px;
+}
+@media screen and (max-width: 1071px) {
+    #tabBar .container-fluid .row .col-md-7{
+        margin-top: 20px;
+    }
+}
